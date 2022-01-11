@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="374dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/logoDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="84dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="@string/logoutText"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/bookingButton"
+        android:layout_width="84dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="@string/bookingsText"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="84dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFFFFF"
+        android:text="@string/profileText"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/viewBookingsButton"
+        android:layout_width="84dp"
+        android:layout_height="47dp"
+        android:background="#FFFFFF"
+        android:text="@string/viewBookings"
+        android:textColor="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText"
+        app:layout_constraintVertical_bias="0.216"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/fnameText"
+        android:layout_width="188dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/loading"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textColorHint="#03A9F4"
+        app:layout_constraintBottom_toTopOf="@+id/bookingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/sNameText"
+        android:layout_width="188dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/loading"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textColorHint="#03A9F4"
+
+        app:layout_constraintBottom_toTopOf="@+id/bookingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="188dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="168dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/loading"
+        android:includeFontPadding="true"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textColorHint="#03A9F4"
+        app:layout_constraintBottom_toTopOf="@+id/bookingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.041"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/fnameView"
+        android:layout_width="89dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="end"
+        android:text="@string/firstname"
+        android:textColor="#03A9F4"
+        app:layout_constraintEnd_toStartOf="@+id/fnameText"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/snameView"
+        android:layout_width="89dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="116dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="end"
+        android:text="@string/secondname"
+        android:textColor="#03A9F4"
+        app:layout_constraintEnd_toStartOf="@+id/sNameText"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/snameView2"
+        android:layout_width="89dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="end"
+        android:text="@string/Email"
+        android:textColor="#03A9F4"
+        app:layout_constraintEnd_toStartOf="@+id/sNameText"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

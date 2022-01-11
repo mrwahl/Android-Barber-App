@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BookME</string>
+    <string name="loginBTNText">LOGIN</string>
+    <string name="loginText">Click to login</string>
+    <string name="RegisterText">Click to register</string>
+    <string name="backToLogin">Back to login page</string>
+    <string name="enterEmailText">Enter your email here!</string>
+    <string name="EnterPasswordText">Enter your password here!</string>
+    <string name="enter_your_first_name">Please enter your first name</string>
+    <string name="enter_your_second_name">Please enter your second name</string>
+    <string name="enter_your_password_again">Enter your password again!</string>
+    <string name="place_your_booking">Place your booking!</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="profileText">Profile</string>
+    <string name="bookingsText">Bookings</string>
+    <string name="logoutText">Logout</string>
+    <string name="firstname">First name</string>
+    <string name="secondname">Second name</string>
+    <string name="Email">Email</string>
+    <string name="loading">Loading . . .</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="enterRegisteredEmail">Enter the email that you registered with to receive a password reset link</string>
+    <string name="resetButton">Click to reset</string>
+    <string name="viewBookings">View your bookings?</string>
+
+    <string name="year">Year :</string>
+    <string name="month">Month :</string>
+    <string name="dayOfMonth">Day :</string>
+    <string name="hour">Hour :</string>
+    <string name="minute">Minute :</string>
+
+
+
+    <string name="logoDescription">A logo of the app</string>
+    <string name="select_a_date_and_timeText">Select a date and time</string>
+</resources>
