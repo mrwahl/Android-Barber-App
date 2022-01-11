@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BookME</string>
+    <string name="loginBTNText">LOGATI-VA</string>
+    <string name="loginText">Faceți clic pentru a vă autentifica</string>
+    <string name="RegisterText">Faceți clic pentru a vă înregistra</string>
+    <string name="backToLogin">Înapoi la pagina de conectare</string>
+    <string name="enterEmailText">Introduceți adresa de email aici!</string>
+    <string name="EnterPasswordText">Introduceți parola aici!</string>
+    <string name="enter_your_first_name">Vă rugăm să introduceți prenumele dvs</string>
+    <string name="enter_your_second_name">Vă rugăm să introduceți al doilea nume</string>
+    <string name="enter_your_password_again">Introduceți parola din nou!</string>
+    <string name="place_your_booking">Faceți rezervarea!</string>
+    <string name="title_activity_profile">Activitate de profil</string>
+    <string name="profileText">Profil</string>
+    <string name="bookingsText">Rezervări</string>
+    <string name="logoutText">Logout</string>
+    <string name="firstname">Nume </string>
+    <string name="secondname">al doilea nume</string>
+    <string name="Email">E-mail</string>
+    <string name="loading">Se încarcă . . .</string>
+    <string name="forgotPassword">Ați uitat parola?</string>
+    <string name="enterRegisteredEmail">Introduceți e-mailul cu care v-ați înregistrat pentru a primi un link de resetare a parolei</string>
+    <string name="resetButton">Faceți clic pentru a reseta</string>
+    <string name="viewBookings">Vedeți rezervările dvs.?</string>
+
+    <string name="year">Anul:</string>
+    <string name="month">Lună :</string>
+    <string name="dayOfMonth">Zi :</string>
+    <string name="hour">Ora :</string>
+    <string name="minute">Minutul :</string>
+
+
+
+    <string name="logoDescription">Un logo al aplicației</string>
+    <string name="select_a_date_and_timeText">Selectați o dată și o oră</string>
+</resources>
